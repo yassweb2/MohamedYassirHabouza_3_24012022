@@ -29,7 +29,6 @@
 .font-size
 {
     font-weight: bold;
-    font-size: 60px;
 }
 .center
 {
@@ -39,7 +38,6 @@
 *
 {
     word-wrap: break-word;
-    font-size: 40px;
     font-family: roboto-bold;
     margin: 0;
     padding: 0;
@@ -54,7 +52,6 @@ body
 {
     text-align: center;
     margin-top: 5px;
-    font-size: 70px;
 }
 /*   header    */
 .block-location
