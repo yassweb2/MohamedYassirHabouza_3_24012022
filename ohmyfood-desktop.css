@@ -1,0 +1,33 @@
+.block-2__button
+{
+    width: 20%;
+}
+/*    button   */
+.allblock-functioning
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 0px;
+}
+.block-functioning
+{
+    width: 100%;
+    height: 80px;
+}
+.allblock-functioning a
+{
+    width: 25%;
+}
+.title-functioning
+{
+    text-align: start;
+}
+/*    functioning   */
+.block-restaurants__pic div
+{
+    width: 90px;
+    height: 40px;
+    margin-left: 75%;
+    margin-top: -190px;
+}

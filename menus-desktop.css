@@ -1,0 +1,60 @@
+section div img
+{
+    height: 300px;
+}
+.block-pic
+{
+    height: 300px;
+}
+.container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.block-white
+{
+    width: 100%;
+}
+.block-entrées, .block-desserts, .block-plats
+{
+    width: 31%;
+}
+.block-plats, .block-desserts, .block-entrées
+{
+    margin-left: 0;
+    margin-top: 40px;
+}
+.block-white__title
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.block-txt-title
+{
+    width: 80%;
+}
+.block-white__txt
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+.block-white:hover .block-1
+{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.block
+{
+    height: 500px;
+    margin-top: -50px;
+}
+.block-2__button
+{
+    width: 20%;
+}

@@ -132,12 +132,6 @@ section div img
     margin-top: 40px;
     margin-left: 5%
 }
-
-.block-entrées
-{
-    margin-left: 5%;
-    margin-top: 30px;
-}
 .underline
 {
     width: 50px;
@@ -150,12 +144,7 @@ section div img
     padding-bottom: 3px;
     font-size: 18px;  
 }
-.block-plats
-{
-    margin-left: 5%;
-    margin-top: 40px;
-}
-.block-desserts
+.block-plats, .block-desserts, .block-entrées
 {
     margin-left: 5%;
     margin-top: 40px;
@@ -258,13 +247,6 @@ footer div i
     100%{opacity: 1;}
 }
 /*   animation  block-white  */
-.block-1
-{
-    width: 100%;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-}
 .block-white
 {
     width: 95%;
@@ -275,6 +257,7 @@ footer div i
     border-radius: 25px;
     margin-top: 20px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
 }
 .block-1
 {
@@ -305,7 +288,6 @@ footer div i
 }
 .block-white:hover .block-white__txt
 {
-    width: 150px;
     height: 20px;
     overflow: hidden;
     white-space: nowrap;
