@@ -3,7 +3,8 @@
     <head>
         <title>Ohmyfood</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="lanote.css"/>
+        <link rel="stylesheet" href="menus.css"/>
+        <link rel="stylesheet" media="screen and (min-width:768px)" href="menus-tablette.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -16,92 +17,145 @@
         <section>
             <div class="block-pic"><img alt="restaurant À la française" src="img/a-la-francaise.jpg"/></div>
             <div class="block">
-                <div class="title-heart"><h1 class="title-h1 fontfamily-shrikhand">À la française</h1><i class="far fa-heart"></i></div>
+                <div class="title-heart"><h1 class="title-h1 fontfamily-shrikhand">À la française</h1>
+                    <div class="restaurant__block-hearth">  
+                    <svg class="heart heart-full" viewBox="-20 0 550 550"  xml:space="preserve">
+                    <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                             c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                             c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                             s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                             C512,93.417,453.532,30,376,30z"/>
+                  <defs>
+                    <linearGradient id="text-fill">
+                          <stop offset="0%" stop-color="#9356DC" />
+                          <stop offset="100%" stop-color="#FF79DA" />
+                    </linearGradient>
+                  </defs>                                   
+                </svg>
+                <svg class="heart heart-empty" viewBox="-20 0 550 550"  xml:space="preserve">
+                    <path d="M376,30c-27.783,0-53.255,8.804-75.707,26.168c-21.525,16.647-35.856,37.85-44.293,53.268
+                             c-8.437-15.419-22.768-36.621-44.293-53.268C189.255,38.804,163.783,30,136,30C58.468,30,0,93.417,0,177.514
+                             c0,90.854,72.943,153.015,183.369,247.118c18.752,15.981,40.007,34.095,62.099,53.414C248.38,480.596,252.12,482,256,482
+                             s7.62-1.404,10.532-3.953c22.094-19.322,43.348-37.435,62.111-53.425C439.057,330.529,512,268.368,512,177.514
+                             C512,93.417,453.532,30,376,30z"/>
+                  <defs>
+                    <linearGradient>
+                          <stop offset="0%" stop-color="#9356DC" />
+                          <stop offset="100%" stop-color="#FF79DA" />
+                    </linearGradient>
+                  </defs>                                   
+                </svg>
+            </div></div>
                 <div class="block-entrées">
                     <h2 class="title-h2">ENTRÉES</h2>
                     <div class="underline"></div>
-                    <a>
-                     <div class="block-white">
-                        <div>
-                            <h3 class="block-white__title">Tartare de poulpe acidulé</h3>
-                            <div class="block-white__txt"><p class="fontfamily-light">Aux zestes d'orange</p><p class="block-white__price">25€</p></div>
+                    <div class="all-blocks-entrees">
+                    <div class="block-white">
+                        <div class="block-1">
+                            <div class="block-txt-title">
+                                <div><h3 class="block-white__title">Tartare de poulpe acidulé</h3></div>
+                                <div><p class="block-white__txt fontfamily-light">Aux zestes d'orange</p></div>
+                            </div>
+                            <div><p class="block-white__price">25€</p></div>
                         </div>
-                     </div>
-                    </a>
-                    <a>
-                     <div class="block-white">
-                        <div>
-                            <h3 class="block-white__title">Velouté de légumes d'antan</h3>
-                            <div class="block-white__txt"><p class="fontfamily-light">Carotte, panais, topinambour</p><p class="block-white__price">35€</p></div>
+                        <div class="block-animation"><i class="fas fa-check-circle"></i></div>
+                    </div>
+                    <div class="block-white">
+                        <div class="block-1">
+                            <div class="block-txt-title">
+                                <div><h3 class="block-white__title">Velouté de légumes d'antan</h3></div>
+                                <div><p class="block-white__txt fontfamily-light">Carotte, panais, topinambour</p></div>
+                            </div>
+                            <div><p class="block-white__price">35€</p></div>
                         </div>
-                     </div>
-                    </a>
-                    <a>
-                     <div class="block-white">
-                        <div>
-                            <h3 class="block-white__title">Soupe à l'oignon</h3>
-                            <div class="block-white__txt"><p class="fontfamily-light">Revisitée</p><p class="block-white__price">20€</p></div>
+                        <div class="block-animation"><i class="fas fa-check-circle"></i></div>
+                    </div>
+                    <div class="block-white">
+                        <div class="block-1">
+                            <div class="block-txt-title">
+                                <div><h3 class="block-white__title">Soupe à l'oignon</h3></div>
+                                <div><p class="block-white__txt fontfamily-light">Revisitée</p></div>
+                            </div>
+                            <div><p class="block-white__price">20€</p></div>
                         </div>
-                     </div>
-                    </a>
+                        <div class="block-animation"><i class="fas fa-check-circle"></i></div>
+                    </div>
+                    </div>
                 </div>
                 <div class="block-plats">
                     <h2 class="title-h2">PLATS</h2>
                     <div class="underline"></div>
-                    <a>
-                     <div class="block-white">
-                        <div>
-                            <h3 class="block-white__title">Coquilles Saint-Jacques</h3>
-                            <div class="block-white__txt"><p class="fontfamily-light">Accompagnées d'une purée de panais</p><p class="block-white__price">40€</p></div>
+                    <div class="all-blocks-plats">
+                    <div class="block-white">
+                        <div class="block-1">
+                            <div class="block-txt-title">
+                                <div><h3 class="block-white__title">Coquilles Saint-Jacques</h3></div>
+                                <div><p class="block-white__txt fontfamily-light">Accompagnées d'une purée de panais</p></div>
+                            </div>
+                            <div><p class="block-white__price">40€</p></div>
                         </div>
-                     </div>
-                    </a>
-                    <a>
-                     <div class="block-white">
-                        <div>
-                            <h3 class="block-white__title">Magret de canard</h3>
-                            <div class="block-white__txt"><p class="fontfamily-light">Et parmentier de pommes de terre</p><p class="block-white__price">35€</p></div>
+                        <div class="block-animation"><i class="fas fa-check-circle"></i></div>
+                    </div>
+                    <div class="block-white">
+                        <div class="block-1">
+                            <div class="block-txt-title">
+                                <div><h3 class="block-white__title">Magret de canard</h3></div>
+                                <div><p class="block-white__txt fontfamily-light">Et parmentier de pommes de terre</p></div>
+                            </div>
+                            <div><p class="block-white__price">35€</p></div>
                         </div>
-                     </div>
-                    </a>
-                    <a>
-                     <div class="block-white">
-                        <div>
-                            <h3 class="block-white__title">Pigeonneau d’Ille-et-Vilaine</h3>
-                            <div class="block-white__txt"><p class="fontfamily-light">Sur son lit de gnocchis aux légumes</p><p class="block-white__price">44€</p></div>
+                        <div class="block-animation"><i class="fas fa-check-circle"></i></div>
+                    </div>
+                    <div class="block-white">
+                        <div class="block-1">
+                            <div class="block-txt-title">
+                                <div><h3 class="block-white__title">Pigeonneau d’Ille-et-Vilaine</h3></div>
+                                <div><p class="block-white__txt fontfamily-light">Sur son lit de gnocchis aux légumes</p></div>
+                            </div>
+                            <div><p class="block-white__price">44€</p></div>
                         </div>
-                     </div>
-                    </a>
+                        <div class="block-animation"><i class="fas fa-check-circle"></i></div>
+                    </div>
+                </div>
                 </div>
                 <div class="block-desserts">
                     <h2 class="title-h2">DESSERTS</h2>
                     <div class="underline"></div>
-                    <a>
-                     <div class="block-white">
-                        <div>
-                            <h3 class="block-white__title">Pétales de violettes glacés</h3>
-                            <div class="block-white__txt"><p class="fontfamily-light">Et purée de noisettes</p><p class="block-white__price">18€</p></div>
+                    <div class="all-blocks-desserts">
+                    <div class="block-white">
+                        <div class="block-1">
+                            <div class="block-txt-title">
+                                <div><h3 class="block-white__title">Pétales de violettes glacés</h3></div>
+                                <div><p class="block-white__txt fontfamily-light">Et purée de noisettes</p></div>
+                            </div>
+                            <div><p class="block-white__price">18€</p></div>
                         </div>
-                     </div>
-                    </a>
-                    <a>
-                     <div class="block-white">
-                        <div>
-                            <h3 class="block-white__title">Fondant au chocolat</h3>
-                            <div class="block-white__txt"><p class="fontfamily-light">Revisité</p><p class="block-white__price">22€</p></div>
+                        <div class="block-animation"><i class="fas fa-check-circle"></i></div>
+                    </div>
+                    <div class="block-white">
+                        <div class="block-1">
+                            <div class="block-txt-title">
+                                <div><h3 class="block-white__title">Fondant au chocolat</h3></div>
+                                <div><p class="block-white__txt fontfamily-light">Revisité</p></div>
+                            </div>
+                            <div><p class="block-white__price">22€</p></div>
                         </div>
-                     </div>
-                    </a>
-                    <a>
-                     <div class="block-white">
-                        <div>
-                            <h3 class="block-white__title">Millefeuille croustillant</h3>
-                            <div class="block-white__txt"><p class="fontfamily-light">Myrtilles et pâte d’amande</p><p class="block-white__price">23€</p></div>
+                        <div class="block-animation"><i class="fas fa-check-circle"></i></div>
+                    </div>
+                    <div class="block-white">
+                        <div class="block-1">
+                            <div class="block-txt-title">
+                                <div><h3 class="block-white__title">Millefeuille croustillant</h3></div>
+                                <div><p class="block-white__txt fontfamily-light">Myrtilles et pâte d’amande</p></div>
+                            </div>
+                            <div><p class="block-white__price">23€</p></div>
                         </div>
-                     </div>
-                    </a>
+                        <div class="block-animation"><i class="fas fa-check-circle"></i></div>
+                    </div>
                 </div>
-                <div class="center"><a class="block-2__button text-decoration" href="#">Commander</a></div>
+                </div>
+                </div>
+                <div class="button center"><a class="block-2__button text-decoration" href="#">Commander</a></div>
             </div>
         </section>  
         <footer>

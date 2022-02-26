@@ -29,7 +29,6 @@
 .font-size
 {
     font-weight: bold;
-    font-size: x-large;
 }
 .center
 {
@@ -53,69 +52,44 @@ body
 {
     font-size: 40px;
 }
+.arrow-icon
+{
+    font-size: 35px;
+    margin-top: 10px;
+}
 /*   header    */
+
+.block-white
+{
+    width: 60%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
+}
+.all-blocks-entrees, .all-blocks-plats, .all-blocks-desserts
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .block-2__button
 {
     width: 30%;
     color: white;
 }
-/*   section1   */
-.block-functioning
+.title-heart i
 {
-    width: 50%;
-    height: 80px;
-    margin: 20px auto ;
+    font-size: 30px;
+    margin-right: 40px;
 }
-.title-functioning
+.title-h1
 {
-    text-align: center;
+    font-size: 30px;
 }
-.allblock-functioning
+.title-h2
 {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    font-size: 25px;  
 }
-.block-functioning i
-{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-/*    fonctionnement    */
-.restaurants-allblock
-{
-    width: 100%;
-    display: flex;
-}
-.restaurants-block1
-{
-    width: 100%;
-}
-.restaurants-block2
-{
-    width: 100%;
-}
-#restaurants
-{
-    height: 800px;
-}
-.title-restaurants
-{
-    margin-left: 5%;
-}
-.block-restaurants
-{
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 40px;
-}
-.block-restaurants__pic div
-{
-    margin-left: 63%;
-}
-/*    restaurants    */
-
+/*   footer   */
 .footer-logo
 {
     margin-left: 0;
@@ -141,5 +115,3 @@ footer
     align-items: center;
     margin-top: 20px;
 }
-
-/*    footer   */
