@@ -58,3 +58,8 @@ section div img
 {
     width: 20%;
 }
+.heart-empty:hover
+{
+    opacity: 0;
+    transition: 1s;
+}

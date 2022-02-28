@@ -31,3 +31,9 @@
     margin-left: 75%;
     margin-top: -190px;
 }
+
+.heart-empty:hover
+{
+    opacity: 0;
+    transition: 1s;
+}

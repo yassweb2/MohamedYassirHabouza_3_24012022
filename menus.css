@@ -121,7 +121,6 @@ section div img
 .heart-empty:active 
 {
     opacity: 0;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 .title-heart

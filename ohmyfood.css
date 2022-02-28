@@ -115,6 +115,11 @@ body
     background-color: #eaeaea;
     border-top: 2px solid #c5c0c0;
 }
+.block-location div h1
+{
+    font-size: 20px;
+    color: rgb(70, 63, 63);
+}
 .block-location__map
 {
     margin-right: 15px;
@@ -337,8 +342,8 @@ footer div i
   fill: url(#text-fill);
   stroke: none;
 }
-.heart-empty:active {
+.heart-empty:active 
+{
     opacity: 0;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
-  }
+}
