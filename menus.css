@@ -302,7 +302,7 @@ footer div i
 {
     transform: rotate(0);
     transition: transform 0.3s linear; 
-    transform-origin: right;
+    transform-origin: center;
     font-size: 25px;
     color: white;
 }
