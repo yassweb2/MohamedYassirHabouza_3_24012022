@@ -249,7 +249,7 @@ footer div i
 .block-white
 {
     width: 95%;
-    height: 80px;
+    height: 70px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -265,7 +265,7 @@ footer div i
 .block-1
 {
     width: 100%;
-    height: 80px;
+    height: 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -290,11 +290,6 @@ footer div i
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-}
-.block-white:active .block-1
-{
-    width: 80%;
-    background-color: #FF79DA;
 }
 .block-white:active .block-animation i
 {
@@ -337,7 +332,7 @@ footer div i
 .block-animation
 {
     width: 0px;
-    height: 80px;
+    height: 70px;
     background-color: #99E2D0;
     transition: width 0.2s ease-in-out;
     transform-origin: right;
