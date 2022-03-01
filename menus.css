@@ -249,7 +249,7 @@ footer div i
 .block-white
 {
     width: 95%;
-    height: 70px;
+    height: 80px;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -258,25 +258,22 @@ footer div i
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.6);
     box-sizing: border-box;
 }
-.block-white__txt
+.block-txt-title
 {
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    box-sizing: border-box;
-}
-.block-white__title
-{
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    width: 70%;
 }
 .block-1
 {
     width: 100%;
-    height: 70px;
+    height: 80px;
     display: flex;
     justify-content: space-between;
+}
+.block-1
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 .block-1 div
 {
@@ -288,6 +285,12 @@ footer div i
     margin-right: 15px;
     margin-top: 35px;
 }
+.block-white__title
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 .block-white:active .block-animation i
 {
     transform: rotate(360deg);
@@ -297,6 +300,14 @@ footer div i
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+.block-white__txt
+{
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
 }
 .block-white:active .block-white__txt
 {
@@ -321,9 +332,9 @@ footer div i
 .block-animation
 {
     width: 0px;
-    height: 70px;
+    height: 80px;
     background-color: #99E2D0;
-    transition: width 0.3s linear;
+    transition: width 0.2s ease-in-out;
     transform-origin: right;
     border: 0px solid white;
     border-top-right-radius: 25px;
