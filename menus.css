@@ -291,6 +291,10 @@ footer div i
     white-space: nowrap;
     text-overflow: ellipsis;
 }
+.block-white:active .block-1
+{
+    width: 80%;
+}
 .block-white:active .block-animation i
 {
     transform: rotate(360deg);
