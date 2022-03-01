@@ -68,6 +68,10 @@ section div img
 {
     transform: rotate(360deg);
 }
+.block-white:checked
+{
+    background-color: blue;
+}
 .block-white:hover .block-white__title
 {
     overflow: hidden;
