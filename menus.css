@@ -294,6 +294,7 @@ footer div i
 .block-white:active .block-1
 {
     width: 80%;
+    background-color: #FF79DA;
 }
 .block-white:active .block-animation i
 {
