@@ -63,3 +63,26 @@ section div img
     opacity: 0;
     transition: 1s;
 }
+/*   block white */
+.block-white:hover .block-animation i
+{
+    transform: rotate(360deg);
+}
+.block-white:hover .block-white__title
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.block-white:hover .block-white__txt
+{
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+}
+.block-white:hover .block-animation
+{
+    width: 80px;
+}
