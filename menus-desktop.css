@@ -67,7 +67,7 @@ section div img
 .block-white:hover .block-animation i
 {
     transform: rotate(360deg);
-}
+} 
 .block-white:hover .block-white__title
 {
     overflow: hidden;
