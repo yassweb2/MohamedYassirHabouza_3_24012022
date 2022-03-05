@@ -61,7 +61,7 @@ body
     justify-content: center;
     align-items: center;
     background-color: rgba(204, 204, 204, 0.8);
-    animation: opacity 2s linear 1;
+    animation: visibility 2s linear 1;
 }
 .spinner div
 {
@@ -92,7 +92,7 @@ body
     50%{transform: rotate(180deg); border-width: 12px;}
     100%{transform: rotate(360deg); border-width: 2px; visibility: hidden;}
 }
-@keyframes opacity
+@keyframes visibility
 {
     0%{visibility: visible;}
     100%{visibility: hidden;}
